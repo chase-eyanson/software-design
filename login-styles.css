@@ -89,3 +89,27 @@ section {
   margin: 0 auto 10px;
   padding-bottom: 1px;
 }
+
+.info {
+  padding: 10px 0 0 5px;
+}
+
+.info label,.info input, .info p {
+  display: inline-block;
+}
+
+.info input, .info p {
+  border-radius: 3px;
+  width: 20%;
+  text-align: left;
+}
+
+.info label {
+  width: 50%;
+  min-width: 55px;
+  text-align: right;
+}
+
+p {
+  margin: 0;
+}
