@@ -80,9 +80,14 @@ h2 {
   border-bottom: 4px solid #303034;
 }
 
+h2, section {
+  background-color: #f8f0e3;
+}
+
 section {
   width: 80%;
   margin: 0 auto 10px;
+  padding-bottom: 1px;
 }
 
 .spacer {
@@ -116,7 +121,9 @@ p {
 button {
   display: block;
   width: 10vw;
+  min-width: 60px;
   height: 2.5vh;
+  min-height: 30px;
   margin: 10px auto;
   border-radius: 5px;
 }
