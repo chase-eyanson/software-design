@@ -95,24 +95,25 @@ section {
 }
 
 .info label,.info input, .info p {
-  display: inline-block;
+  display: block;
+  width: 100%;
 }
+
 
 .info input {
   border-radius: 3px;
   width: 20%;
-  text-align: left;
+  margin: 0 auto;
 }
 
 .info p {
   text-align: center;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .info label {
-  width: 50%;
   min-width: 55px;
-  text-align: right;
+  text-align: center;
 }
 
 p {
