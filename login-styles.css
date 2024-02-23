@@ -106,6 +106,7 @@ section {
 
 .info p {
   text-align: center;
+  margin: 0 auto;
 }
 
 .info label {
