@@ -98,10 +98,16 @@ section {
   display: inline-block;
 }
 
-.info input, .info p {
+.info input {
   border-radius: 3px;
   width: 20%;
   text-align: left;
+}
+
+.info p {
+  border-radius: 3px;
+  width: 20%;
+  text-align: center;
 }
 
 .info label {
@@ -111,5 +117,5 @@ section {
 }
 
 p {
-  margin: 0 auto;
+  margin: 0;
 }
