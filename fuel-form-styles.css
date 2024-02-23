@@ -114,6 +114,10 @@ section {
   text-align: right;
 }
 
+.info input {
+  min-height: 22px;
+}
+
 p {
   margin: 0;
 }
